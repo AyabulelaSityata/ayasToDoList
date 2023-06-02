@@ -1,0 +1,61 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: rgb(104, 93, 77);
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    background-color: rgba(0, 255, 162, 0.499);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.heading {
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+#display {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: 100%;
+}
+
+#sort, #add {
+    background-color: blue;
+    color: white;
+    border-radius: 2rem;
+    width: 100%;
+    padding: 1rem;
+    margin: 5px;
+    
+}
+
+#sort:hover {
+    background-color: green;
+    transition: 1.5s;
+}
+#add:hover {
+    background-color: green;
+    transition: 1.5s;
+}

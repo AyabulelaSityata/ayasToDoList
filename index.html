@@ -8,7 +8,20 @@
     <title>Aya's to Do List</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="heading">
+            <h4>My to-do List</h4>
+        </div>
+        <div class="display">
+            <input type="text" id="display" placeholder="Enter activity">
+        </div>
+        <div class="buttons">
+            <input onclick="sortTasks()" type="button" value="Sort list" id="sort">
+            <input onclick="addTask()" type="button" value="Add task" id="add">
+        </div>
+        <div class="output"></div>
+    </div>
+
     <script src="./script/code.js"></script>
 </body>
 </html>
